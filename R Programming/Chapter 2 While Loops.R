@@ -48,3 +48,14 @@ while (speed > 30) {
     speed <- speed - 6 
   }
 }
+
+############     OUTPUT   ################
+
+[1] "Your speed is 64"
+[1] "Slow down big time!"
+[1] "Your speed is 53"
+[1] "Slow down big time!"
+[1] "Your speed is 42"
+[1] "Slow down!"
+[1] "Your speed is 36"
+[1] "Slow down!"
