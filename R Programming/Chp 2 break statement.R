@@ -37,11 +37,4 @@ while (speed > 30) {
 
 ############     OUTPUT   ################
 
-[1] "Slow down!"
-[1] "Slow down!"
-[1] "Slow down!"
-[1] "Slow down!"
-[1] "Slow down!"
-# Print out the speed variable
-speed
-[1] 29
+[1] "Your speed is 88"
