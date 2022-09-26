@@ -1,3 +1,8 @@
+"Finish the while loop so that it:
+
+prints out the triple of i, so 3 * i, at each run.
+is abandoned with a break if the triple of i is divisible by 8, but still prints out this triple before breaking."
+
 # Initialize i as 1 
 i <- 1
 
