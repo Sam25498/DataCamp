@@ -1,0 +1,10 @@
+ctr <- 1
+while(ctr <= 7) {
+  if (ctr %% 5 == 0) {
+    break
+  }
+  print(paste("ctr is set to", ctr))
+  ctr <- ctr + 1
+}
+
+"ctr is set to 1"
