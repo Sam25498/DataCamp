@@ -7,3 +7,12 @@ cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Capetown"
 for( city in cities) {
   print(city)
 }
+
+##############  OUTPUT #####################
+
+"New York"
+"Paris"
+"London"
+"Tokyo"
+"Rio de Janeiro"
+"Capetown"
