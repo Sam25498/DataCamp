@@ -6,7 +6,7 @@ while(ctr <= 7) {
   print(paste("ctr is set to", ctr))
   ctr <- ctr + 1
 }
-
+#Output
 "ctr is set to 1"
 "ctr is set to 2"
 "ctr is set to 3"
