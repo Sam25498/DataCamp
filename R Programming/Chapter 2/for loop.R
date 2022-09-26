@@ -53,3 +53,21 @@ for( city in cities) {
 "Tokyo"
 "Rio de Janeiro"
 "Capetown"
+###################################################################
+  "Suppose we want to loop the cities names as well as it position inside the vector. Here's how we do it."
+  
+cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Capetown")
+  
+ 
+for( i in 1:lenth(cities)) {
+    print(paste(cities[i], "is on position", i, "in the cities vector."))
+      next
+    }
+  
+################ OUTPUT #######################
+ "New York is on position 1 in the cities vector"
+"Paris is on position 2 in the cities vector."
+"London is on positon 3 in the cities vector."
+"Tokyo is on positon 4 in the cities vector."
+"Rio de Janeiro is on position 5 in the cities vector."
+"Capetown is on postion 6 in the cities vector." 
