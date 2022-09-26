@@ -33,5 +33,15 @@ for( city in cities) {
   
 "New York"
 "Paris"
-
+  
+##################################################
 "next statement also alters the flow of your for loop"
+  
+cities <- list("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Capetown")
+
+for( city in cities) {
+    if (nchar(city) == 6) {
+      break
+    }
+  print(city)
+
