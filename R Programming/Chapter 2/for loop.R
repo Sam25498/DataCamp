@@ -71,3 +71,16 @@ for( i in 1:lenth(cities)) {
 "Tokyo is on positon 4 in the cities vector."
 "Rio de Janeiro is on position 5 in the cities vector."
 "Capetown is on postion 6 in the cities vector." 
+  
+ ################  for loop: wrap up #####################
+  cities <- c("New York", "Paris", "London", "Tokyo", "Rio de Janeiro", "Capetown")
+  
+#Concise, easy to read, but no access to looping index
+for( city in cities) {
+  print(city)
+}
+  
+#Harder to read and write, but more versatile
+for( i in 1:lenth(cities)) {
+  print(paste(cities[i])         
+} 
