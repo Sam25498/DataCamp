@@ -6,3 +6,14 @@ for (i in 1:nrow(ttt)) {
     print(paste( "On row i and column j the board contains x"))
   }
 }
+
+######################   OUTPUT  ######################
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
+[1] "On row i and column j the board contains x"
