@@ -1,3 +1,5 @@
+
+# Exercise 1
 # The tic-tac-toe matrix ttt has already been defined for you
 
 # define the double for loop
