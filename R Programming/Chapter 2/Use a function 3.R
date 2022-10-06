@@ -9,3 +9,16 @@ avg_li
 # Advanced average of linkedin
 avg_li <- mean(linkedin, na.rm = TRUE)
 avg_li
+
+
+#########################         OUTPUT     ######################
+# Basic average of linkedin
+avg_li <- mean(linkedin)
+avg_li
+[1] NA
+# Advanced average of linkedin
+avg_li <- mean(linkedin, na.rm = TRUE)
+avg_li
+[1] 12.33333
+>
+;
