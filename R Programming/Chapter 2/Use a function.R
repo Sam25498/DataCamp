@@ -11,3 +11,10 @@ avg_fb <- mean(facebook)
 # Inspect avg_li and avg_fb
 avg_fb
 avg_li
+
+################     OUTPUT     ###################
+# Inspect avg_li and avg_fb
+avg_fb
+[1] 11.42857
+avg_li
+[1] 10.85714
