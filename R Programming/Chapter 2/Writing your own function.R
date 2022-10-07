@@ -32,3 +32,18 @@ hello()
 # Output
 #[1] "Hi there!"
 #[1] TRUE
+
+
+########################       Part 3     #########################
+# Finish the pow_two() function
+pow_two <- function(x, print_info = TRUE) {
+  y <- x ^ 2
+  if (print_info == TRUE) {
+    print(paste(x, "to the power two equals", y))
+
+  }
+  
+  return(y)
+}
+
+pow_two(5)
