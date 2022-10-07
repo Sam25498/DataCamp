@@ -5,7 +5,7 @@ pow_two <- function(x) {
 } 
 
 # Use the function
-pow_two(12)
+pow_two(12)  #144
 
 
 # Create a function sum_abs()
@@ -15,4 +15,5 @@ sum_abs <- function(a,b) {
 
 
 # Use the function
-sum_abs(-2,3)
+sum_abs(-2,3)  #5
+
