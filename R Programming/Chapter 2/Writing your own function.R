@@ -47,3 +47,6 @@ pow_two <- function(x, print_info = TRUE) {
 }
 
 pow_two(5)
+# Output
+[1] "5 to the power two equals 25"
+[1] 25
