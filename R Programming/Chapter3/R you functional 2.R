@@ -21,3 +21,25 @@ interpret_all <- function(views, return_sum=TRUE) {
 # Call the interpret_all() function on both linkedin and facebook
 interpret_all(linkedin)
 interpret_all(facebook)
+
+#OUTPUT
+
+# Call the interpret_all() function on both linkedin and facebook
+interpret_all(linkedin)
+[1] "You're popular!"
+[1] "Try to be more visible!"
+[1] "Try to be more visible!"
+[1] "Try to be more visible!"
+[1] "Try to be more visible!"
+[1] "You're popular!"
+[1] "Try to be more visible!"
+[1] 33
+interpret_all(facebook)
+[1] "You're popular!"
+[1] "Try to be more visible!"
+[1] "Try to be more visible!"
+[1] "You're popular!"
+[1] "Try to be more visible!"
+[1] "Try to be more visible!"
+[1] "Try to be more visible!"
+[1] 33
