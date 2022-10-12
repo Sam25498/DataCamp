@@ -5,4 +5,4 @@ library(ggplot2)
 qplot(mtcars$wt, mtcars$hp)
 
 # Check out the currently attached packages again
-library()
+search()
