@@ -9,4 +9,6 @@ split_low <- lapply(split_math, tolower)
 
 
 # Take a look at the structure of split_low
-split_low
+# Take a look at the structure of split_low
+structure <- str(split_low)
+structure
