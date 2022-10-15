@@ -4,3 +4,5 @@ vec2 <- rev(vec1)
 
 # Fix the error
 mean(abs(vec1))
+
+#[1] 4.48
