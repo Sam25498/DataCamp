@@ -9,3 +9,11 @@ time2 <- as.POSIXct(str2, format = "%Y-%m-%d %T")
 # Convert times to formatted strings
 format(time1, "%M")
 format(time2, "%I:%M %p")
+
+###############################################
+#OUTPUT
+# Convert times to formatted strings
+format(time1, "%M")
+[1] "01"
+format(time2, "%I:%M %p")
+[1] "02:23 PM"
