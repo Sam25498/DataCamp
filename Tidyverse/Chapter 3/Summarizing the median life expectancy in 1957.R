@@ -6,3 +6,10 @@ library(dplyr)
 
 
 gapminder %>% filter(year == 1957) %>% summarize(medianLifeExp = median(lifeExp))
+
+#########################################################################
+######### OUTPUT #########################################
+# A tibble: 1 × 1
+  medianLifeExp
+          <dbl>
+1          48.4
