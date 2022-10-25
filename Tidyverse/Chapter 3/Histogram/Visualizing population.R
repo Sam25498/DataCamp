@@ -8,4 +8,4 @@ gapminder_1952 <- gapminder %>%
 
 # Create a histogram of population (pop_by_mil)
 
-ggplot(gapminder_1952, aes(x = pop_by_mil)) + geom_histogram(binwidth=50)
+ggplot(gapminder_1952, aes(x = pop_by_mil)) + geom_histogram(bins=50)
