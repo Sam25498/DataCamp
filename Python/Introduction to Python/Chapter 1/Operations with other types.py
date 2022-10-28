@@ -13,3 +13,14 @@ doubledesc = desc + desc
 
 # Print out doubledesc
 print(doubledesc)
+
+############################################################################################
+
+# Print out doubledesc
+print(doubledesc)
+<class 'float'>
+compound interestcompound interest
+
+<script.py> output:
+    <class 'float'>
+    compound interestcompound interest
