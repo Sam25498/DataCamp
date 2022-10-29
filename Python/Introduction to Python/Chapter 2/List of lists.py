@@ -12,3 +12,8 @@ house = [["hallway", hall],
          ["bedroom", bed],
          ["bathroom", bath]]
 
+# Print out house
+print(house)
+
+# Print out the type of house
+print(type(house))
