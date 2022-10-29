@@ -9,3 +9,8 @@ print(areas[-1])
 
 # Print out the area of the living room
 print(areas[5])
+
+#Output: <script.py> output:
+    11.25
+    9.5
+    20.0
