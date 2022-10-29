@@ -10,3 +10,4 @@ areas = [hall, kit, liv, bed, bath]
 
 # Print areas
 print(areas)
+#Output: [11.25, 18.0, 20.0, 10.75, 9.5]
