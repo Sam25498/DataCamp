@@ -17,3 +17,6 @@ print(house)
 
 # Print out the type of house
 print(type(house))
+
+#Output: [['hallway', 11.25], ['kitchen', 18.0], ['living room', 20.0], ['bedroom', 10.75], ['bathroom', 9.5]]
+#<class 'list'>
