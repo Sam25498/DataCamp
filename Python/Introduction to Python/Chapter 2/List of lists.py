@@ -5,3 +5,10 @@ liv = 20.0
 bed = 10.75
 bath = 9.50
 
+# house information as list of lists
+house = [["hallway", hall],
+         ["kitchen", kit],
+         ["living room", liv],
+         ["bedroom", bed],
+         ["bathroom", bath]]
+
