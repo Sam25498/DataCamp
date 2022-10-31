@@ -8,3 +8,4 @@ areas[9] = 10.50
 areas[4] = "chill zone"
 
 print(areas)
+#output: ['hallway', 11.25, 'kitchen', 18.0, 'chill zone', 20.0, 'bedroom', 10.75, 'bathroom', 10.5]
