@@ -9,3 +9,7 @@ upstairs = areas[6:10]
 
 # Print out downstairs and upstairs
 print(downstairs, upstairs)
+
+##############################################
+<script.py> output:
+    ['hallway', 11.25, 'kitchen', 18.0, 'living room', 20.0] ['bedroom', 10.75, 'bathroom', 9.5]
