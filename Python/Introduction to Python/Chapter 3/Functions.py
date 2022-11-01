@@ -10,3 +10,7 @@ print(len(var1))
 
 # Convert var2 to an integer: out2
 out2 = int(var2)
+print(out2)
+<class 'list'>
+4
+1
