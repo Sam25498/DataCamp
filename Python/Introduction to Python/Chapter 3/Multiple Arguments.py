@@ -10,3 +10,6 @@ full_sorted = sorted(full, reverse=True)
 
 # Print out full_sorted
 print(full_sorted)
+
+#output:
+   # [20.0, 18.0, 11.25, 10.75, 9.5]
