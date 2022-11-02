@@ -9,3 +9,6 @@ print(place, place_up)
 
 # Print out the number of o's in place
 print(place.count("o"))
+
+poolhouse POOLHOUSE
+3
