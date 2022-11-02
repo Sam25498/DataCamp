@@ -6,3 +6,7 @@ print(areas.index(20.0))
 
 # Print out how often 9.50 appears in areas
 print(areas.count(9.50))
+
+#output:
+    2
+    1
