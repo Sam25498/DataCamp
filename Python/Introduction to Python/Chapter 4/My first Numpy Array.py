@@ -7,3 +7,6 @@ import numpy as np
 # Create a numpy array from baseball: np_baseball
 np_baseball = np.array(baseball)
 
+# Print out type of np_baseball
+print(type(np_baseball))
+<class 'numpy.ndarray'>
