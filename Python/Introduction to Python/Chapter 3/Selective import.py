@@ -7,3 +7,6 @@ from math import radians
 # Travel distance of Moon over 12 degrees. Store in dist.
 dist = r * radians(12)
 
+# Print out dist
+print(dist)
+40317.10572106901
