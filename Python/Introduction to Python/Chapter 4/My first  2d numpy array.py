@@ -10,3 +10,10 @@ import numpy as np
 # Create a 2D numpy array from baseball: np_baseball
 np_baseball = np.array(baseball)
 
+# Print out the type of np_baseball
+print(type(np_baseball))
+
+# Print out the shape of np_baseball
+print(np_baseball.shape)
+<class 'numpy.ndarray'>
+(4, 2)
