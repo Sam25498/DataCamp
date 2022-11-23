@@ -29,3 +29,6 @@ id	title	author	year	genre
 24	Arguing with Idiots: How to Stop Small Minds and Big Government	Glenn Beck	2009	Non Fiction
 25	Astrophysics for People in a Hurry	Neil deGrasse Tyson	2017	Non Fiction
 26	Autobiography of Mark Twain, Vol. 1	Mark Twain	2010	Non Fiction
+27	Baby Touch and Feel: Animals	DK	2015	Non Fiction
+28	Balance (Angie's Extreme Stress Menders)	Angie Grace	2015	Non Fiction
+29	Barefoot Contessa Foolproof: Recipes You Can Trust: A Cookbook	Ina Garten	2012	Non Fiction
