@@ -32,3 +32,7 @@ id	title	author	year	genre
 27	Baby Touch and Feel: Animals	DK	2015	Non Fiction
 28	Balance (Angie's Extreme Stress Menders)	Angie Grace	2015	Non Fiction
 29	Barefoot Contessa Foolproof: Recipes You Can Trust: A Cookbook	Ina Garten	2012	Non Fiction
+30	Barefoot Contessa, How Easy Is That?: Fabulous Recipes & Easy Tips	Ina Garten	2010	Non Fiction
+31	Becoming	Michelle Obama	2018	Non Fiction
+32	Being Mortal: Medicine and What Matters in the End	Atul Gawande	2015	Non Fiction
+33	Between the World and Me	Ta-Nehisi Coates	2015	Non Fiction
