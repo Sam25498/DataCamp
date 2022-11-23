@@ -9,3 +9,5 @@ id	title	author	year	genre
 4	1984 (Signet Classics)	George Orwell	2017	Fiction
 5	5,000 Awesome Facts (About Everything!) (National Geographic Kids)	National Geographic Kids	2019	Non Fiction
 6	A Dance with Dragons (A Song of Ice and Fire)	George R. R. Martin	2011	Fiction
+7	A Game of Thrones / A Clash of Kings / A Storm of Swords / A Feast of Crows / A Dance with Dragons	George R. R. Martin	2014	Fiction
+8	A Gentleman in Moscow: A Novel	Amor Towles	2017	Fiction
