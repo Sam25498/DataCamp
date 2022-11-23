@@ -11,3 +11,7 @@ id	title	author	year	genre
 6	A Dance with Dragons (A Song of Ice and Fire)	George R. R. Martin	2011	Fiction
 7	A Game of Thrones / A Clash of Kings / A Storm of Swords / A Feast of Crows / A Dance with Dragons	George R. R. Martin	2014	Fiction
 8	A Gentleman in Moscow: A Novel	Amor Towles	2017	Fiction
+9	A Higher Loyalty: Truth, Lies, and Leadership	James Comey	2018	Non Fiction
+10	A Man Called Ove: A Novel	Fredrik Backman	2016	Fiction
+11	A Patriot's History of the United States: From Columbus's Great Discovery to the War on Terror	Larry Schweikart	2010	Non Fiction
+12	A Stolen Life: A Memoir	Jaycee Dugard	2011	Non Fiction
