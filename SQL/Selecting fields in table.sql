@@ -15,3 +15,7 @@ id	title	author	year	genre
 10	A Man Called Ove: A Novel	Fredrik Backman	2016	Fiction
 11	A Patriot's History of the United States: From Columbus's Great Discovery to the War on Terror	Larry Schweikart	2010	Non Fiction
 12	A Stolen Life: A Memoir	Jaycee Dugard	2011	Non Fiction
+13	A Wrinkle in Time (Time Quintet)	Madeleine L'Engle	2018	Fiction
+14	Act Like a Lady, Think Like a Man: What Men Really Think About Love, Relationships, Intimacy, and Commitment	Steve Harvey	2009	Non Fiction
+15	Adult Coloring Book Designs: Stress Relief Coloring Book: Garden Designs, Mandalas, Animals, and Paisley Patterns	Adult Coloring Book Designs	2016	Non Fiction
+16	Adult Coloring Book: Stress Relieving Animal Designs	Blue Star Coloring	2015	Non Fiction
