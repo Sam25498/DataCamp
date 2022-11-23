@@ -23,3 +23,6 @@ id	title	author	year	genre
 18	Adult Coloring Books: A Coloring Book for Adults Featuring Mandalas and Henna Inspired Flowers, Animals, and Paisley…	Coloring Books for Adults	2015	Non Fiction
 19	Alexander Hamilton	Ron Chernow	2016	Non Fiction
 20	All the Light We Cannot See	Anthony Doerr	2014	Fiction
+21	Allegiant	Veronica Roth	2013	Fiction
+22	American Sniper: The Autobiography of the Most Lethal Sniper in U.S. Military History	Chris Kyle	2015	Non Fiction
+23	And the Mountains Echoed	Khaled Hosseini	2013	Fiction
