@@ -19,3 +19,7 @@ id	title	author	year	genre
 14	Act Like a Lady, Think Like a Man: What Men Really Think About Love, Relationships, Intimacy, and Commitment	Steve Harvey	2009	Non Fiction
 15	Adult Coloring Book Designs: Stress Relief Coloring Book: Garden Designs, Mandalas, Animals, and Paisley Patterns	Adult Coloring Book Designs	2016	Non Fiction
 16	Adult Coloring Book: Stress Relieving Animal Designs	Blue Star Coloring	2015	Non Fiction
+17	Adult Coloring Book: Stress Relieving Patterns	Blue Star Coloring	2015	Non Fiction
+18	Adult Coloring Books: A Coloring Book for Adults Featuring Mandalas and Henna Inspired Flowers, Animals, and Paisley…	Coloring Books for Adults	2015	Non Fiction
+19	Alexander Hamilton	Ron Chernow	2016	Non Fiction
+20	All the Light We Cannot See	Anthony Doerr	2014	Fiction
