@@ -36,3 +36,9 @@ id	title	author	year	genre
 31	Becoming	Michelle Obama	2018	Non Fiction
 32	Being Mortal: Medicine and What Matters in the End	Atul Gawande	2015	Non Fiction
 33	Between the World and Me	Ta-Nehisi Coates	2015	Non Fiction
+34	Born to Run	Bruce Springsteen	2016	Non Fiction
+35	Breaking Dawn (The Twilight Saga, Book 4)	Stephenie Meyer	2009	Fiction
+36	Broke: The Plan to Restore Our Trust, Truth and Treasure	Glenn Beck	2010	Non Fiction
+37	Brown Bear, Brown Bear, What Do You See?	Bill Martin Jr.	2017	Fiction
+38	Cabin Fever (Diary of a Wimpy Kid, Book 6)	Jeff Kinney	2011	Fiction
+39	Calm the F*ck Down: An Irreverent Adult Coloring Book (Irreverent Book Series)V
