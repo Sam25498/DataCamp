@@ -26,3 +26,6 @@ id	title	author	year	genre
 21	Allegiant	Veronica Roth	2013	Fiction
 22	American Sniper: The Autobiography of the Most Lethal Sniper in U.S. Military History	Chris Kyle	2015	Non Fiction
 23	And the Mountains Echoed	Khaled Hosseini	2013	Fiction
+24	Arguing with Idiots: How to Stop Small Minds and Big Government	Glenn Beck	2009	Non Fiction
+25	Astrophysics for People in a Hurry	Neil deGrasse Tyson	2017	Non Fiction
+26	Autobiography of Mark Twain, Vol. 1	Mark Twain	2010	Non Fiction
