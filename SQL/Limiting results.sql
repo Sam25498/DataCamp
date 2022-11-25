@@ -20,3 +20,6 @@ Non Fiction
 Fiction
 
 
+-- To do the same in SQL DATABASE, 
+Replace LIMIT with TOP
+
