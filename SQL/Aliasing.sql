@@ -10,3 +10,6 @@ Brené Brown
 DK
 Delegates of the Constitutional
 Rebecca Skloot
+Crispin Boyer
+Daniel James Brown
+Bruce Springsteen
