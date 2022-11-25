@@ -6,3 +6,8 @@ FROM books;
 -- Select all columns from library_authors
 SELECT * 
 FROM library_authors;
+
+--query result
+unique_author
+John Heilemann
+Sheryl Sandberg
