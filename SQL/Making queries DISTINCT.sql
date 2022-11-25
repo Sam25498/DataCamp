@@ -20,3 +20,6 @@ FROM books;
 author	genre
 Eben Alexander	Non Fiction
 Adam Mansbach	Fiction
+Garth Stein	Fiction
+Gillian Flynn	Fiction
+Tucker Carlson	Non Fiction
