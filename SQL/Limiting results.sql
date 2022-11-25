@@ -4,3 +4,10 @@
 SELECT genre
 FROM books
 LIMIT 10;
+
+--query result 
+
+genre
+Non Fiction
+Fiction
+Non Fiction
