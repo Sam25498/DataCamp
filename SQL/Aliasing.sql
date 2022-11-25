@@ -6,3 +6,7 @@ FROM books;
 unique_author
 John Heilemann
 Sheryl Sandberg
+Brené Brown
+DK
+Delegates of the Constitutional
+Rebecca Skloot
