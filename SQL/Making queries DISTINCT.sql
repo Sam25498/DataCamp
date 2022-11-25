@@ -6,4 +6,7 @@ FROM books;
 author
 John Heilemann
 Sheryl Sandberg
-
+Brené Brown
+DK
+Delegates of the Constitutional
+Rebecca Skloot
