@@ -15,3 +15,8 @@ Rebecca Skloot
 -- Select unique authors and genre combinations from the books table
 SELECT DISTINCT author, genre
 FROM books;
+
+--query result
+author	genre
+Eben Alexander	Non Fiction
+Adam Mansbach	Fiction
