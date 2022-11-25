@@ -11,3 +11,9 @@ FROM library_authors;
 unique_author
 John Heilemann
 Sheryl Sandberg
+Brené Brown
+DK
+Delegates of the Constitutional
+Rebecca Skloot
+Crispin Boyer
+
