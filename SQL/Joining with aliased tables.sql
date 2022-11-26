@@ -15,3 +15,8 @@ AFG	Afghanistan	2010	2.179
 AFG	Afghanistan	2015	-1.549
 AGO	Angola	2010	14.48
 AGO	Angola	2015	10.287
+ALB	Albania	2010	3.605
+ALB	Albania	2015	1.896
+ARE	United Arab Emirates	2010	0.878
+ARE	United Arab Emirates	2015	4.07
+ARG	Argentina	2010	10.461
