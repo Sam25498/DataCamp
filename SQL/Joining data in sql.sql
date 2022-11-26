@@ -27,3 +27,12 @@ SELECT cities.name , countries.region
 FROM cities
 INNER JOIN countries
 ON cities.country_code = countries.code;
+
+-- query result
+countries  cities
+
+name	region
+Abidjan	Western Africa
+Abu Dhabi	Middle East
+Abuja	Western Africa
+Accra	Western Africa
