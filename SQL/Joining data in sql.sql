@@ -11,6 +11,6 @@ Abu Dhabi	ARE	1145000	null	1145000
 SELECT * 
 FROM cities
 -- Inner join to countries
-INNER JOIN cities
+INNER JOIN countries
 -- Match on country codes
 ON countries.code = cities.country_code;
