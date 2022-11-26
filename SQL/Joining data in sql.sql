@@ -50,3 +50,6 @@ countries cities
 name	region
 Abidjan	Western Africa
 Abu Dhabi	Middle East
+Abuja	Western Africa
+Accra	Western Africa
+
