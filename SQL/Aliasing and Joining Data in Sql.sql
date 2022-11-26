@@ -12,3 +12,4 @@ Abidjan	Cote d'Ivoire	Western Africa
 Abu Dhabi	United Arab Emirates	Middle East
 Abuja	Nigeria	Western Africa
 Accra	Ghana	Western Africa
+...,
