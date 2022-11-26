@@ -43,3 +43,10 @@ FROM cities AS city
 INNER JOIN countries AS country
 ON city.country_code = country.code;
 
+
+--query result
+countries cities
+
+name	region
+Abidjan	Western Africa
+Abu Dhabi	Middle East
