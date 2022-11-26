@@ -17,7 +17,7 @@ ON countries.code = cities.country_code;
 
 --query result
 name	country_code	city_proper_pop	metroarea_pop	urbanarea_pop	code	name	continent	region	surface_area	indep_year	local_name	gov_form	capital	cap_long	cap_lat
-Abidjan	CIV	4765000	null	4765000	CIV	Cote d'Ivoire	Africa	Western Africa	322463	1960	Cote dIvoire	Republic	Yamoussoukro	-4.0305	5.332
+Abidjan	CIV	4765000	null	4765000	CIV	Cote dIvoire	Africa	Western Africa	322463	1960	Cote dIvoire	Republic	Yamoussoukro	-4.0305	5.332
 Abu Dhabi	ARE	1145000	null	1145000	ARE	United Arab Emirates	Asia	Middle East	83600	1971	Al-Imarat al-´Arabiya al-Muttahida	Emirate Federation	Abu Dhabi	54.3705	24.4764
 Abuja	NGA	1235880	6000000	1235880	NGA	Nigeria	Africa	Western Africa	923768	1960	Nigeria	Federal Republic	Abuja	7.48906	9.05804
 
@@ -36,3 +36,5 @@ Abidjan	Western Africa
 Abu Dhabi	Middle East
 Abuja	Western Africa
 Accra	Western Africa
+
+
