@@ -37,4 +37,9 @@ Abu Dhabi	Middle East
 Abuja	Western Africa
 Accra	Western Africa
 
+-- Select name fields (with alias) and region 
+SELECT city.name , country.region
+FROM cities AS city
+INNER JOIN countries AS country
+ON city.country_code = country.code;
 
