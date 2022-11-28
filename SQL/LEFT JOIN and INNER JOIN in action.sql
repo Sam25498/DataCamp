@@ -33,3 +33,12 @@ FROM cities AS c1
 LEFT JOIN countries AS c2
 ON c1.country_code = c2.code
 ORDER BY code DESC;
+
+--query result
+Kaohsiung	null	null	null	2778918
+Bucharest	null	null	null	1883425
+Taipei	null	null	null	2704974
+New Taipei City	null	null	null	3954929
+Harare	ZWE	Zimbabwe	Eastern Africa	1606000
+Lusaka	ZMB	Zambia	Eastern Africa	1742979
+Cape Town	ZAF	South Africa	Southern Africa	3740026
