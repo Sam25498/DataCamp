@@ -18,3 +18,13 @@ Angola	2010	6.41
 
 --Chain another inner join to your query with the economies table AS e, using code.
 -- Select name, and using table aliases, select year and unemployment_rate from economies.
+
+-- Select fields
+SELECT name, fertility_rate, e.year, e.unemployment_rate
+FROM countries AS c
+INNER JOIN populations AS p
+ON c.code = p.country_code
+-- Join to economies (as e)
+INNER JOIN economies AS e
+-- Match on country code
+ON c.code = e.code;
