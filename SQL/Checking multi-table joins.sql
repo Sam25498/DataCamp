@@ -8,6 +8,7 @@ ON c.code = e.code
 	AND e.year = p.year;
 	
 --query result
+--name	year	fertility_rate	unemployment_rate
 Angola	2015	5.996	null
 Albania	2010	1.663	14
 Albania	2015	1.793	17.1
