@@ -28,3 +28,18 @@ ON c.code = p.country_code
 INNER JOIN economies AS e
 -- Match on country code
 ON c.code = e.code;
+
+--query result
+name	fertility_rate	year	unemployment_rate
+United Arab Emirates	1.868	2015	null
+United Arab Emirates	1.868	2010	null
+United Arab Emirates	1.767	2015	null
+United Arab Emirates	1.767	2010	null
+Argentina	2.37	2015	null
+Argentina	2.37	2010	7.75
+Argentina	2.308	2015	null
+Argentina	2.308	2010	7.75
+Armenia	1.648	2015	18.5
+Armenia	1.648	2010	19
+Armenia	1.517	2015	18.5
+Armenia	1.517	2010	19
