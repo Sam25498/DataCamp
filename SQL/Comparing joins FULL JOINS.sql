@@ -13,3 +13,7 @@ ORDER BY region; 
 Bermuda	BMU	North America	Bermudian dollar
 United States	USA	North America	United States dollar
 Canada	CAN	North America	Canadian dollar
+Greenland	GRL	North America	null
+null	TMP	null	United States dollar
+null	FLK	null	Falkland Islands pound
+null	HKG	null	Hong Kong dollar
