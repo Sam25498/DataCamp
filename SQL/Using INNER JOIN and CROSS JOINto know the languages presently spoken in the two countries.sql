@@ -40,3 +40,9 @@ Pakistan	Hindi
 India	Bengali
 Pakistan	Bengali	
 ...
+Pakistan	English
+India	Burushaski
+Pakistan	Burushaski
+India	Other
+Pakistan	Other
+Showing 50 out of 50 rows
