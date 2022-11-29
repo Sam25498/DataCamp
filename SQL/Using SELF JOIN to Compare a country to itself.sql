@@ -1,3 +1,6 @@
+--Perform an inner join of populations with itself ON country_code, aliased p1 and p2 respectively.
+--Select the country_code from p1 and the size field from both p1 and p2, aliasing p1.size as size2010 and p2.size as size2015 (in that order).
+
 -- Select aliased fields from populations as p1
 SELECT p1.country_code, p1.size AS size2010, p2.size AS size2015
 -- Join populations as p1 to itself, alias as p2, on country code
