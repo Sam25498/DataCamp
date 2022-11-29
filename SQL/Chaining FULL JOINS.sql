@@ -1,3 +1,5 @@
+--Complete the FULL JOIN with countries as c1 on the left and languages as l on the right, using code to perform this join.
+--Next, chain this join with another FULL JOIN, placing currencies on the right, joining on code again.
 SELECT 
 	c1.name AS country, 
     region, 
