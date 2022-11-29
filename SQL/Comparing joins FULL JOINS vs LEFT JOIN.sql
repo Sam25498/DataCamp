@@ -19,6 +19,14 @@ Greenland	GRL	North America	null
 null	TMP	null	United States dollar
 null	FLK	null	Falkland Islands pound
 null	HKG	null	Hong Kong dollar
+...
+null	TWN	null	New Taiwan dollar
+null	WLF	null	CFP franc
+null	MSR	null	East Caribbean dollar
+null	IOT	null	United States dollar
+null	CCK	null	Australian dollar
+null	COK	null	New Zealand dollar
+Showing 18 out of 18 rows
 
 --Repeat the same query as before, turning your full join into a left join with the currencies table.
 --Have a look at what has changed in the output by comparing it to the full join result.
