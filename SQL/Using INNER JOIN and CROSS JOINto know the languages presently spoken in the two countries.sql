@@ -32,3 +32,11 @@ FROM countries AS c
 CROSS JOIN languages AS l
 WHERE c.code in ('PAK','IND')
 	AND l.code in ('PAK','IND');
+	
+--query result
+--country	language
+India	Hindi
+Pakistan	Hindi
+India	Bengali
+Pakistan	Bengali	
+...
