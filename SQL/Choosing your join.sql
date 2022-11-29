@@ -15,3 +15,16 @@ WHERE year = 2010
 ORDER BY life_exp ASC
 -- Limit to five records
 LIMIT 5;
+
+--query result
+cities
+countries
+populations
+
+country	region	life_exp
+Lesotho	Southern Africa	47.483414
+Central African Republic	Central Africa	47.625317
+Sierra Leone	Western Africa	48.22895
+Swaziland	Southern Africa	48.345757
+Zimbabwe	Eastern Africa	49.574657
+Showing 5 out of 5 rows
