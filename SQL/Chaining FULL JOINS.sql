@@ -24,3 +24,9 @@ Marshall Islands	Micronesia	Other	United States dollar	Cent
 Marshall Islands	Micronesia	Marshallese	United States dollar	Cent
 Nauru	Micronesia	Other	Australian dollar	Cent
 Nauru	Micronesia	English	Australian dollar	Cent
+...
+Guam	Micronesia	Other Pacific Islander	null	null
+Guam	Micronesia	Chamorro	null	null
+Guam	Micronesia	Filipino	null	null
+Guam	Micronesia	English	null	null
+Showing 50 out of 50 rows
