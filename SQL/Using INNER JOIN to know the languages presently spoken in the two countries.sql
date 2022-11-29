@@ -6,5 +6,19 @@ INNER JOIN countries AS c
 USING(code)
 WHERE c.code IN ('PAK','IND')
 	AND l.code in ('PAK','IND');
-  
-  
+	
+ --query result
+country	language
+India	Hindi
+India	Bengali
+India	Telugu
+India	Marathi
+India	Tamil
+India	Urdu 
+...
+Pakistan	Hindko
+Pakistan	Brahui
+Pakistan	English
+Pakistan	Burushaski
+Pakistan	Other
+Showing 25 out of 25 rows
