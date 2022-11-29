@@ -51,3 +51,10 @@ USING (code)
 WHERE region = 'North America' 
 	OR name IS NULL
 ORDER BY region;
+
+--query result
+--country	code	region	basic_unit
+Bermuda	BMU	North America	Bermudian dollar
+Canada	CAN	North America	Canadian dollar
+United States	USA	North America	United States dollar
+Showing 3 out of 3 rows
