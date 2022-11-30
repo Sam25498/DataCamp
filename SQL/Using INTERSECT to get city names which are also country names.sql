@@ -4,3 +4,11 @@ FROM countries
 INTERSECT
 SELECT cities.name
 FROM cities;
+
+
+--query result
+countries
+cities
+
+name
+Singapore
