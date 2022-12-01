@@ -59,3 +59,24 @@ WHERE code in
     FROM countries
     WHERE region = 'Middle East')
 ORDER BY name;
+--query result
+languages
+countries
+
+name
+Arabic
+Aramaic
+Armenian
+Azerbaijani
+Azeri
+Baluchi
+Bulgarian
+...
+Romanian
+Russian
+Syriac
+Turkish
+Turkmen
+Urdu
+unspecified
+Showing 27 out of 27 rows
