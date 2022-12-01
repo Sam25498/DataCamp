@@ -20,3 +20,12 @@ NCL	New Caledonia
 NZL	New Zealand
 VUT	Vanuatu
 Showing 19 out of 19 rows
+
+-- Complete your anti join by adding an additional filter to return every country code that is not included in the currencies table.
+SELECT code, name
+FROM countries
+WHERE continent = 'Oceania'
+-- Filter for countries not included in the bracketed subquery
+  AND code NOT IN
+    (SELECT code
+    FROM currencies);
