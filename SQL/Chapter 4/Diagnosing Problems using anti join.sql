@@ -29,3 +29,14 @@ WHERE continent = 'Oceania'
   AND code NOT IN
     (SELECT code
     FROM currencies);
+--query result
+currencies
+countries
+
+code	name
+ASM	American Samoa
+FJI	Fiji Islands
+GUM	Guam
+FSM	Micronesia, Federated States of
+MNP	Northern Mariana Islands
+Showing 5 out of 5 rows
