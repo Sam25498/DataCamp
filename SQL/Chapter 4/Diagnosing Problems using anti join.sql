@@ -13,3 +13,10 @@ ASM	American Samoa
 AUS	Australia
 FJI	Fiji Islands
 GUM	Guam
+...
+TON	Tonga
+TUV	Tuvalu
+NCL	New Caledonia
+NZL	New Zealand
+VUT	Vanuatu
+Showing 19 out of 19 rows
