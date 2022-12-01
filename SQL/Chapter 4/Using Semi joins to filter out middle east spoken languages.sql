@@ -49,3 +49,13 @@ English patois
 Estonian
 Ewe
 Showing 100 out of 396 rows
+
+--Create a semi join out of the two queries you've written, which filters unique languages returned in the first query for only those languages spoken in the 'Middle East'.
+SELECT DISTINCT name
+FROM languages
+-- Add syntax to use bracketed subquery below as a filter
+WHERE code in 
+    (SELECT code
+    FROM countries
+    WHERE region = 'Middle East')
+ORDER BY name;
