@@ -21,3 +21,31 @@ SYR
 TUR
 PSE
 Showing 18 out of 18 rows
+
+--Write a second query to SELECT the name of each unique language appearing in the languages table; do not use column aliases here.
+--Order the result set by name in ascending order.
+-- Select unique language names
+SELECT DISTINCT name
+FROM languages
+-- Order by the name of the language
+ORDER BY name ASC;
+
+--query result
+languages
+countries
+
+name
+Afar
+Afrikaans
+Akyem
+Albanian
+Alsatian
+...
+Echuwabo
+Elomwe
+Emakhuwa
+English
+English patois
+Estonian
+Ewe
+Showing 100 out of 396 rows
