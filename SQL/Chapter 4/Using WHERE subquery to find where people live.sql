@@ -1,3 +1,4 @@
+--Wrong Code
 -- Select relevant fields from cities table
 SELECT name, country_code, urbanarea_pop
 FROM cities
