@@ -57,3 +57,13 @@ Showing 100 out of 212 rows
 
 ---Select local_name from countries, with the aliased lang_num from your subquery (which has been nested and aliased for you as sub).
 --Use WHERE to match the code field from countries and sub.
+-- Select local_name and lang_num from appropriate tables
+--correctt soln'
+SELECT local_name, sub.lang_num
+FROM countries,
+    (SELECT code, COUNT(*) AS lang_num
+     FROM languages
+     GROUP BY code) AS sub
+-- Where codes match    
+WHERE countries.code = sub.code
+ORDER BY lang_num DESC;
