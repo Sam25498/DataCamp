@@ -1,3 +1,7 @@
+---Say you are interested in determining the number of languages spoken for each country. 
+--You want to present this information alongside each country's local_name, which is a field only present in the countries table and not in the languages table. 
+--You'll use a subquery inside FROM to bring information from these two tables together!
+
 --first try
 -- Select code, and language count as lang_num
 SELECT code, lang_num
@@ -36,3 +40,6 @@ NPL	14
 IND	14
 EGY	2
 Showing 100 out of 212 rows
+
+---Select local_name from countries, with the aliased lang_num from your subquery (which has been nested and aliased for you as sub).
+--Use WHERE to match the code field from countries and sub.
