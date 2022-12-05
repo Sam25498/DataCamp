@@ -29,7 +29,7 @@ WHERE year = 2015
   WHERE gov_form = 'Republic' AND gov_form = 'Mornachy' )
 ORDER BY inflation_rate;
 
---Third attempt worked, but they wanted the use of 'LIKE' clause
+--Third attempt did not output the right answer , but they wanted the use of 'LIKE' clause
 -- Select relevant fields
 SELECT code, inflation_rate, unemployment_rate
 FROM economies
