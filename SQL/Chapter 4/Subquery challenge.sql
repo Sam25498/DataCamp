@@ -40,3 +40,35 @@ WHERE year = 2015
   FROM countries
   WHERE gov_form IN('Republic', 'Monarchy' ))
 ORDER BY inflation_rate;
+
+--THE fourth and correct attempt 
+-- Select relevant fields
+SELECT code, inflation_rate, unemployment_rate
+FROM economies
+WHERE year = 2015 
+  AND code NOT IN
+-- Subquery returning country codes filtered on gov_form
+	(SELECT code
+  FROM countries
+  WHERE gov_form LIKE '%Monarchy%'
+  OR gov_form LIKE '%Republic%' )
+ORDER BY inflation_rate;
+
+--query result
+economies
+countries
+
+code	inflation_rate	unemployment_rate
+AFG	-1.549	null
+CHE	-1.14	3.178
+PRI	-0.751	12
+ROU	-0.596	6.812
+TLS	0.553	null
+MNE	1.204	null
+SRB	1.392	18.2
+HKG	3.037	3.296
+ARE	4.07	null
+MAC	4.564	1.825
+LBY	9.839	null
+SSD	52.813	null
+Showing 12 out of 12 rows
