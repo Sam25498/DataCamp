@@ -9,7 +9,7 @@ WHERE capital IN
     WHERE region LIKE 'Europe'
     OR region LIKE '%America')
 -- Add filter condition such that metroarea_pop does not have null values
-AND WHERE metroarea_pop IS NOT NULL
+AND WHERE metroarea_pop !=  NULL
 
 -- Sort and limit the result
 ORDER BY city_perc DESC
