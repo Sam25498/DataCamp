@@ -34,3 +34,15 @@ SELECT countries.name AS country,
 FROM countries
 ORDER BY cities_num DESC, country
 LIMIT 9;
+
+--query result
+cities
+countries
+
+country	cities_num
+China	36
+India	18
+Japan	11
+Brazil	10
+Pakistan	9
+United States	9
