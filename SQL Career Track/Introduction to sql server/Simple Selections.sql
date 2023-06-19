@@ -12,3 +12,27 @@ SELECT
   DISTINCT country AS unique_country 
 FROM 
   eurovision;
+--RESULTS
+query result
+eurovision
+unique_country
+Albania
+Andorra
+Armenia
+Austria
+Azerbaijan
+...
+Romania
+Russia
+San Marino
+Serbia
+Serbia and Montenegro
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+Turkey
+Ukraine
+United Kingdom
+Showing 48 out of 48 rows
