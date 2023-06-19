@@ -56,3 +56,13 @@ euro_id	event_year	country	gender	group_type	place	points	host_country	host_regi
 99	2005	United Kingdom	Female	Solo	22	18	Away	Away	1	null	1
 100	2005	Malta	Female	Solo	2	192	Away	Away	1	null	1
 Showing 100 out of 647 rows
+
+--This time, return only half the rows using 'TOP', using the same shortcut as before to return all columns.
+---- Return all columns, restricting the percent of rows returned
+SELECT 
+  TOP (50) PERCENT * 
+FROM 
+  eurovision;
+
+
+
