@@ -5,3 +5,10 @@ SELECT
   TOP (50) points 
 FROM 
   eurovision;
+
+--Return a list of unique countries using DISTINCT. Give the results an alias of unique_country.
+-- Return unique countries and use an alias
+SELECT 
+  DISTINCT country AS unique_country 
+FROM 
+  eurovision;
