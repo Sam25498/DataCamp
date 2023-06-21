@@ -13,7 +13,7 @@ grid_total
 
 -- Obtain a count of 'grid_id'
 SELECT 
-  COUNT(grid_id) AS grid_total
+  COUNT(grid_id) AS RFC_count
 FROM 
   grid
 -- Restrict to rows where the nerc_region is 'RFC'
