@@ -85,4 +85,42 @@ country_count	country	average_place	avg_points	min_points	max_points
 17	Ukraine	7	130	30	280
 15	United Kingdom	16	51	0	173
 Showing 48 out of 48 rows
+--Finally, our results are skewed by countries who only have one entry. Apply a filter so we only return rows where the country_count is greater than 5. Then arrange by avg_place in ascending order, and avg_points in descending order.
+SELECT 
+  country, 
+  COUNT (country) AS country_count, 
+  AVG (place) AS avg_place, 
+  AVG (points) AS avg_points, 
+  MIN (points) AS min_points, 
+  MAX (points) AS max_points 
+FROM 
+  eurovision 
+GROUP BY 
+  country 
+  -- The country column should only contain those with a count greater than 5
+HAVING 
+  COUNT(country) > 5 
+  -- Arrange columns in the correct order
+ORDER BY 
+  avg_place ASC, 
+  avg_points DESC;
+-------------------------------------------------------------------------------
+query result
+eurovision
+country	country_count	avg_place	avg_points	min_points	max_points
+Azerbaijan	9	3	150	96	221
+Serbia	10	6	145	60	298
+Russia	18	6	134	37	266
+Armenia	10	6	122	54	198
+Greece	19	7	131	12	252
+Ukraine	17	7	130	30	280
+Sweden	20	7	120	30	372
+...
+Spain	15	15	49	1	97
+United Kingdom	15	16	51	0	173
+France	15	16	46	3	142
+Austria	10	16	41	4	101
+Switzerland	14	16	37	0	128
+Andorra	6	17	26	8	80
+Showing 41 out of 41 rows
   
