@@ -1,7 +1,7 @@
 -- Count the total number of affiliations per university
 SELECT COUNT(*), professors.university_id 
-FROM professors
-JOIN affiliations
+FROM affiliations
+JOIN professors
 ON affiliations.professor_id = professors.id
 -- Group by the university ids of professors
 GROUP BY professors.university_id
