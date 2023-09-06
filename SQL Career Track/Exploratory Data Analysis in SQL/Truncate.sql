@@ -1,0 +1,69 @@
+/*
+Truncate
+Use trunc() to examine the distributions of attributes of the Fortune 500 companies.
+
+Remember that trunc() truncates numbers by replacing lower place value digits with zeros:
+
+trunc(value_to_truncate, places_to_truncate)
+Negative values for places_to_truncate indicate digits to the left of the decimal to replace, while positive values indicate digits to the right of the decimal to keep.
+
+Instructions 1/2
+50 XP
+1
+Use trunc() to truncate employees to the 100,000s (5 zeros).
+Count the number of observations with each truncated value.
+
+
+Take Hint (-15 XP)
+
+2
+Repeat step 1 for companies with < 100,000 employees (most common).
+This time, truncate employees to the 10,000s place.
+*/
+-- Truncate employees
+SELECT trunc(employees, -5) AS employee_bin,
+       -- Count number of companies with each truncated value
+       count(*)
+  FROM fortune500
+ -- Use alias to group
+ GROUP BY employee_bin
+ -- Use alias to order
+ ORDER BY employee_bin;
+----------------------------------------------------
+query result
+fortune500
+employee_bin	count
+0	433
+100000	35
+200000	20
+300000	7
+400000	4
+2300000	1
+-----------------------------------------------------
+--Repeat step 1 for companies with < 100,000 employees (most common).
+--This time, truncate employees to the 10,000s place.
+-- Truncate employees
+SELECT trunc(employees, -4) AS employee_bin,
+       -- Count number of companies with each truncated value
+       count(*)
+  FROM fortune500
+ -- Limit to which companies?
+ WHERE employees < 100000
+ -- Use alias to group
+ GROUP BY employee_bin
+ -- Use alias to order
+ ORDER BY employee_bin;
+----------------------------------------------------------
+--query result
+fortune500
+employee_bin	count
+0	102
+10000	108
+20000	63
+30000	42
+40000	35
+50000	31
+60000	18
+70000	18
+80000	6
+90000	10
