@@ -1,0 +1,32 @@
+/*
+Coalesce
+The coalesce() function can be useful for specifying a default or backup value when a column contains NULL values.
+
+coalesce() checks arguments in order and returns the first non-NULL value, if one exists.
+
+coalesce(NULL, 1, 2) = 1
+coalesce(NULL, NULL) = NULL
+coalesce(2, 3, NULL) = 2
+In the fortune500 data, industry contains some missing values. Use coalesce() to use the value of sector as the industry when industry is NULL. Then find the most common industry.
+
+Instructions
+100 XP
+Use coalesce() to select the first non-NULL value from industry, sector, or 'Unknown' as a fallback value.
+Alias the result of the call to coalesce() as industry2.
+Count the number of rows with each industry2 value.
+Find the most common value of industry2.
+*/
+-- Use coalesce
+SELECT COALESCE(industry, sector, 'Unknown') AS industry2,
+       -- Don't forget to count!
+       COUNT(*) 
+  FROM fortune500 
+-- Group by what? (What are you counting by?)
+ GROUP BY industry2
+-- Order results to see most common first
+ ORDER BY count DESC
+-- Limit results to get just the one value you want
+ LIMIT 1;
+--------------------------------------------------------
+industry2	count
+Utilities: Gas and Electric	22
